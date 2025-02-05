@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres en Raya</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="/src/assets/images.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="bg-pantll">
+        <div class="cont-bg">
+        <div class="menu">
+            <div>
+                <h2>WIN X : <span class="marc-X">0</span></h2>
+                <h2>WIN O : <span class="marc-O">0</span></h2>
+            </div>
+            <button id="btnReset">RESET</button>
+        </div>
+        <div class="tablero">
+            <button class="casilla"></button>
+            <button class="casilla"></button>
+            <button class="casilla"></button>
+            <button class="casilla"></button>
+            <button class="casilla"></button>
+            <button class="casilla"></button>
+            <button class="casilla"></button>
+            <button class="casilla"></button>
+            <button class="casilla"></button>
+        </div>
+        <div class="label-Win">
+            <h1>Turno de X</h1>
+        </div>
+        </div>
+    </div>
+
+    <!-- Importar scripts en orden -->
+    <script type="module" src="src/anuncios.js"></script>
+    <script type="module" src="src/verificar.js"></script>
+    <script type="module" src="src/lectura.js"></script>
+</body>
+</html>
